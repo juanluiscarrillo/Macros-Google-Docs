@@ -18,6 +18,7 @@ Antes de utilizar este software es importante asegurarse previamente de:
 - El hipervínculo de la celda **C1** del fichero Resumen se corresponde con la URL de la *Vista Previa" del formulario
 - La variable **GLOBAL.formId** del script del formulario se corresponde con la ID del formulario
 - La variable **GLOBAL.summaryId** del script del formulario se corresponde con la ID del documento *Resumen*
+- Añadir un ***activador*** para la función *onForm()*
 
 **NOTA:** La ID de un documento de Google Doc se puede obtener fácilmente de la URL. Por ejemplo, si se tiene una URL *https://docs.google.com/forms/d/1OkeqoNVFT4vPEl5sm-34vYeuPQyXpD1b0qetIFh8eBA/edit*, la ID es *1OkeqoNVFT4vPEl5sm-34vYeuPQyXpD1b0qetIFh8eBA*
 
