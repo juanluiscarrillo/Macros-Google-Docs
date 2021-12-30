@@ -1,4 +1,4 @@
-## Macros para Google Docs
+# Macros para Google Docs
 
 En este repositorio se colgarán macros realizadas para Google Doc.
 
