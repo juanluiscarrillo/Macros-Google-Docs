@@ -14,6 +14,8 @@ Se trata de un conjunto de macros para hojas de cálculo y formularios que gesti
 - Hoja de cáluculo ***Resumen***: La hoja principal llamada ***Inversión*** contendrá un resumen con todos los valores en los que se ha invertido. Además, puede haber más hojas cuyo nombre coincide con el número correspondente al año, donde se desglosan las operaciones realizadas en el ejercicio correspondiente.
 - Formulario ***Valores***: Es el formulario que se empleará para introducir las operaciones de compra y venta, así como los dividendos.
 
+Para utilizarlo, hay que duplicar el contenido de la carpeta [Valores plantilla](https://drive.google.com/drive/folders/1Jv8QmgUJn_mKmiDdlPBXwvxdRJ52VWiZ?usp=sharing) en una nueva carpeta (poner el nombre deseado).
+
 Antes de utilizar este software es importante asegurarse previamente de:
 - El hipervínculo de la celda **C1** del fichero Resumen se corresponde con la URL de la *Vista Previa" del formulario
 - La variable **GLOBAL.formId** del script del formulario se corresponde con la ID del formulario
@@ -33,3 +35,5 @@ Una vez que se ha configurado el valor, se puede empezar a trabajar con él. Par
 Para comprobar los cambios en la hoja *Inversión* del documento *Resumen*, se pulsa el botón *Actualizar* de la celda *A1*. El programa recoge todo los cambios previamente introducidos.
 
 Como se ha comentado previamente, además de la hoja *Inversión* puede haber otras hojas en el documento *Resumen*. Cada una de estas hojas se corresponde con un ejercicio y en ella se mostraría un resumen correspondiente al mismo. Añadir más ejercicios es tan simple como duplicar la hoja de un año y cambiar el nombre de la hoja recién creada con el número correspondiente (no olvidar pulsar el botón *Actualizar* para recoger los cambios). Por último, si se quiere que se mostrar la información de ejercicio individual también en la hoja *Inversión*, hay que poner el número del año correspondiente en una celda de la fila 2 en la columna inmediatamente libre a la derecha, siempre, en cualquier caso, a la derecha de la letra k (no olvidar pulsar el botón *Actualizar* para recoger los cambios).
+
+**NOTA IMPORTANTE:** En el repositorio se suben los ficheros correspondientes con los scripts, pero no es necesario insertar dichos scripts manualmente en los documentos si se procede como se ha indicado arriba.
